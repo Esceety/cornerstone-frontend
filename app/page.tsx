@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { TeamGrid } from '@/components/TeamGrid';
+import teamContent from '@/content/team-content.json';
 
 export default function HomePage() {
   return (
@@ -220,98 +222,14 @@ export default function HomePage() {
       </section>
 
       {/* People that holds us */}
-      <section className="py-20 bg-gray-900 text-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-3">People that holds us</h2>
-            <p className="text-gray-400">A group of dedicated and unwavering men and women who are dedicated to serving your every need, daily!</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto mb-12">
-            <div className="text-center">
-              <div className="relative w-40 h-40 mx-auto mb-4">
-                <Image
-                  src="/images/cornerstone/siteImages/team/foundert1.png"
-                  alt="Andrew James Jones"
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h3 className="font-bold">Andrew James Jones</h3>
-              <p className="text-orange-500 text-sm mb-3">Executive Director</p>
-              <button className="bg-orange-500 text-white px-4 py-1 rounded text-sm hover:bg-orange-600">
-                CLICK FOR DETAIL BIO
-              </button>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-40 h-40 mx-auto mb-4">
-                <Image
-                  src="/images/cornerstone/johanna2.png"
-                  alt="Johanna L. Courts"
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h3 className="font-bold">Johanna L. Courts</h3>
-              <p className="text-orange-500 text-sm mb-3">Chief Operating Officer</p>
-              <button className="bg-orange-500 text-white px-4 py-1 rounded text-sm hover:bg-orange-600">
-                CLICK FOR DETAIL BIO
-              </button>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-40 h-40 mx-auto mb-4">
-                <Image
-                  src="/images/cornerstone/patricia.png"
-                  alt="Patricia B. Davis"
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h3 className="font-bold">Patricia B. Davis</h3>
-              <p className="text-orange-500 text-sm mb-3">Director of Education</p>
-              <button className="bg-orange-500 text-white px-4 py-1 rounded text-sm hover:bg-orange-600">
-                CLICK FOR DETAIL BIO
-              </button>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-40 h-40 mx-auto mb-4">
-                <Image
-                  src="/images/cornerstone/siteImages/team/educatort1.png"
-                  alt="Lovetta Ford"
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h3 className="font-bold">Lovetta Ford</h3>
-              <p className="text-orange-500 text-sm mb-3">Associate Director</p>
-              <button className="bg-orange-500 text-white px-4 py-1 rounded text-sm hover:bg-orange-600">
-                CLICK FOR DETAIL BIO
-              </button>
-            </div>
-
-            <div className="text-center">
-              <div className="relative w-40 h-40 mx-auto mb-4">
-                <Image
-                  src="/images/cornerstone/darius.png"
-                  alt="Darius Middleton"
-                  fill
-                  className="object-cover rounded"
-                />
-              </div>
-              <h3 className="font-bold">Darius Middleton</h3>
-              <p className="text-orange-500 text-sm mb-3">Program Coordinator</p>
-              <button className="bg-orange-500 text-white px-4 py-1 rounded text-sm hover:bg-orange-600">
-                CLICK FOR DETAIL BIO
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About Us CTA */}
+      <TeamGrid
+        title={teamContent.team.title}
+        subtitle={teamContent.team.subtitle}
+        members={teamContent.team.members}
+        columns={4}
+        variant="dark"
+      />
+{/* About Us CTA */}
       <section className="py-16 border-t-4 border-b-4 border-teal-400 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center max-w-6xl mx-auto">

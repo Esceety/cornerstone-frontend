@@ -59,7 +59,7 @@ export default async function TeamPage() {
         title={content.team.title}
         subtitle={content.team.subtitle}
         members={content.team.members}
-        columns={5}
+        columns={4}
         variant="dark"
       />
 
