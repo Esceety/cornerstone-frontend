@@ -119,11 +119,11 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <PersonCard
             key={index}
-            name={data.name}
-            designation={data.designation || ''}
-            image={data.image || ''}
-            email={data.email}
-            phone={data.phone}
+            name={String(data.name || '')}
+            designation={String(data.designation || '')}
+            image={String(data.image || '')}
+            email={String(data.email || '')}
+            phone={String(data.phone || '')}
           />
         );
 
