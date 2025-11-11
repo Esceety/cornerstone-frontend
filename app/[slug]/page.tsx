@@ -7,6 +7,7 @@ import { Button } from '@/components/Button';
 import { ImageBlock } from '@/components/ImageBlock';
 import { Divider } from '@/components/Divider';
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 
 interface Addon {
   type: string;
@@ -55,7 +56,7 @@ export async function generateStaticParams() {
   const files = fs.readdirSync(contentDir).filter((f) => f.endsWith('.json'));
 
   // Exclude routes that have their own custom page.tsx files
-  const excludedRoutes = ['team', 'about-new', 'contact'];
+  const excludedRoutes = ['team', 'about-new', 'contact', 'message-from-founder'];
 
   return files
     .map((file) => file.replace('.json', ''))
@@ -68,7 +69,10 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+
   const page = await getPageData(slug);
+
+  
 
   if (!page) {
     return {
@@ -100,7 +104,7 @@ async function getPageData(slug: string): Promise<PageData | null> {
     return JSON.parse(fileContents);
   } catch (error) {
     console.error(`Error loading page ${slug}:`, error);
-    return null;
+    notFound();
   }
 }
 
@@ -111,7 +115,7 @@ function renderAddon(addon: Addon, index: number) {
   try {
     switch (type) {
       case 'person':
-        if (!data?.name) return null;
+        if (!data?.name) notFound();
         return (
           <PersonCard
             key={index}
@@ -125,7 +129,7 @@ function renderAddon(addon: Addon, index: number) {
 
       case 'heading':
       case 'sp_heading':
-        if (!data?.text && !data?.title) return null;
+        if (!data?.text && !data?.title) notFound();
         return (
           <Heading
             key={index}
@@ -136,7 +140,7 @@ function renderAddon(addon: Addon, index: number) {
 
       case 'text_block':
       case 'sp_text':
-        if (!data?.html && !addon.text) return null;
+        if (!data?.html && !addon.text) notFound();
         return (
           <TextBlock
             key={index}
@@ -148,7 +152,7 @@ function renderAddon(addon: Addon, index: number) {
 
       case 'button':
       case 'sp_button':
-        if (!data?.text) return null;
+        if (!data?.text) notFound();
         return (
           <Button
             key={index}
@@ -160,7 +164,7 @@ function renderAddon(addon: Addon, index: number) {
 
       case 'image':
       case 'sp_image':
-        if (!data?.src && !data?.image) return null;
+        if (!data?.src && !data?.image) notFound();
         return (
           <ImageBlock
             key={index}
@@ -174,7 +178,7 @@ function renderAddon(addon: Addon, index: number) {
         return <Divider key={index} />;
 
       case 'htmlContent':
-        if (!data?.html && !addon.data?.htmlContent) return null;
+        if (!data?.html && !addon.data?.htmlContent) notFound();
         return (
           <TextBlock
             key={index}
@@ -187,11 +191,11 @@ function renderAddon(addon: Addon, index: number) {
         if (addon.text) {
           return <TextBlock key={index} text={addon.text} />;
         }
-        return null;
+        notFound();
     }
   } catch (error) {
     console.error(`Error rendering addon type ${type}:`, error);
-    return null;
+    notFound();
   }
 }
 
@@ -208,6 +212,7 @@ function getColumnClasses(columnCount: number) {
 
 export default async function DynamicPage({ params }: PageProps) {
   const { slug } = await params;
+
   const page = await getPageData(slug);
 
   if (!page) {
@@ -224,6 +229,7 @@ export default async function DynamicPage({ params }: PageProps) {
       </div>
     );
   }
+
 
   return (
     <div className='min-h-screen bg-gradient-to-b from-gray-50 to-white'>

@@ -39,9 +39,6 @@ export default function HomePage() {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
           <p className="text-lg mb-2 tracking-wider">WE SERVE OUR</p>
           <h1 className="text-7xl font-bold mb-8">COMMUNITY</h1>
-          <button className="bg-orange-500 text-white px-8 py-3 rounded hover:bg-orange-600 transition-colors font-semibold">
-            CLICK HERE TO REGISTER
-          </button>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
           <div className="w-2 h-2 bg-white rounded-full"></div>

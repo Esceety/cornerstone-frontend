@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch",
+    "image": "/images/cornerstone/hero/hero2.jpg"
+  },
+  "contactInfo": {
+    "title": "Our Locations & Contact Information",
+    "locations": [
+      {
+        "title": "Florida Office",
+        "address": "Florida, USA"
+      },
+      {
+        "title": "Georgia Office",
+        "address": "Georgia, USA"
+      }
+    ],
+    "phone": "1-912-216-1229",
+    "fax": "954-827-0769",
+    "email": "info@cornerstonedeliverance.com"
+  },
+  "contactForm": {
+    "title": "Send Us a Message",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+    "fields": [
+      {
+        "name": "fullName",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "placeholder": "Enter your phone number",
+        "required": false
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "placeholder": "Enter your email address",
+        "required": true
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea",
+        "placeholder": "Enter your message",
+        "required": true,
+        "rows": 6
+      }
+    ],
+    "submitText": "Send Message"
+  }
+}
