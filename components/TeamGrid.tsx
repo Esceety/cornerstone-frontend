@@ -12,7 +12,7 @@ interface TeamGridProps {
   title?: string;
   subtitle?: string;
   members: TeamMember[];
-  columns?: 3 | 5;
+  columns?: 3 | 4 | 5;
   showBioButton?: boolean;
   variant?: 'light' | 'dark';
 }
