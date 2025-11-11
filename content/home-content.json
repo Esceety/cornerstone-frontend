@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "subtitle": "WE SERVE OUR",
+    "title": "COMMUNITY",
+    "image": "/images/cornerstone/hero/hero1.jpg",
+    "cta": {
+      "text": "Get Started Today",
+      "link": "/contact"
+    }
+  },
+  "programCards": [
+    {
+      "title": "Youth Programs",
+      "description": "Empowering youth through education, arts, and mentorship programs",
+      "icon": "Ìæì",
+      "color": "orange"
+    },
+    {
+      "title": "Family Services",
+      "description": "Supporting families with counseling, resources, and development programs",
+      "icon": "Ì±®‚ÄçÌ±©‚ÄçÌ±ß‚ÄçÌ±¶",
+      "color": "teal"
+    },
+    {
+      "title": "Community Outreach",
+      "description": "Building stronger communities through service and engagement",
+      "icon": "Ì¥ù",
+      "color": "purple"
+    }
+  ],
+  "education": {
+    "title": "Education & Information Resource Center",
+    "description": "CDDMC provides a holistic approach to developing spiritual based, educational, and artistic programs designed to mold individuals into morally responsible citizens in body, mind, and spirit.",
+    "image": "/images/cornerstone/hero/hero2.jpg",
+    "buttonText": "Learn More",
+    "buttonLink": "/about-new"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Comprehensive services for our community",
+    "items": [
+      {
+        "title": "Community Mental Health",
+        "image": "/images/cornerstone/hero/hero3.jpg",
+        "link": "/programs-and-services"
+      },
+      {
+        "title": "Youth Empowerment & Performing Arts",
+        "image": "/images/cornerstone/hero/hero2.jpg",
+        "link": "/programs-and-services"
+      },
+      {
+        "title": "Non-Profit Development",
+        "image": "/images/cornerstone/hero/hero1.jpg",
+        "link": "/programs-and-services"
+      },
+      {
+        "title": "A.J. Jones Funeral Services",
+        "image": "/images/cornerstone/hero/hero3.jpg",
+        "link": "/programs-and-services"
+      }
+    ]
+  },
+  "team": {
+    "title": "People that holds us",
+    "subtitle": "A group of dedicated and unwavering men and women who are dedicated to serving your every need, daily.",
+    "members": [
+      {
+        "name": "Andrew James Jones",
+        "title": "Executive Director",
+        "image": "/images/cornerstone/siteImages/team/foundert1.png",
+        "link": "/team/andrew-jones"
+      },
+      {
+        "name": "Johanna L. Courts",
+        "title": "Chief Operating Officer",
+        "image": "/images/cornerstone/johanna2.png",
+        "link": "/team/johanna-courts"
+      },
+      {
+        "name": "Patricia B. Davis",
+        "title": "Director of Education",
+        "image": "/images/cornerstone/patricia.png",
+        "link": "/team/patricia-davis"
+      },
+      {
+        "name": "Lovetta Ford",
+        "title": "Associate Director",
+        "image": "/images/cornerstone/siteImages/team/educatort1.png",
+        "link": "/team/lovetta-ford"
+      },
+      {
+        "name": "Darius Middleton",
+        "title": "Program Coordinator",
+        "image": "/images/cornerstone/darius.png",
+        "link": "/team/darius-middleton"
+      }
+    ]
+  },
+  "aboutCta": {
+    "title": "Want to know more about us?",
+    "link": "/about-new"
+  },
+  "footer": {
+    "cta": {
+      "title": "Ready to make a difference?",
+      "subtitle": "Join us in building stronger communities",
+      "buttonText": "Contact Us Today",
+      "buttonLink": "/contact"
+    },
+    "company": [],
+    "donations": [],
+    "copyright": ""
+  }
+}

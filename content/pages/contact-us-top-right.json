@@ -1,0 +1,155 @@
+{
+    "id": 9,
+    "title": "Contact Us Top Right",
+    "slug": "contact-us-top-right",
+    "metaTitle": "Contact Us Top Right",
+    "metaDescription": "",
+    "metaImage": "",
+    "publishedAt": "2020-02-20 10:06:17",
+    "updatedAt": "2023-08-04 13:34:47",
+    "sections": [
+        {
+            "type": "section",
+            "settings": {
+                "admin_label": "",
+                "title": "",
+                "heading_selector": "h3",
+                "title_fontsize": "",
+                "title_fontweight": "",
+                "title_position": "sppb-text-center",
+                "columns_align_center": 0,
+                "columns_content_alignment": "center",
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "container_width": {
+                    "unit": "px"
+                },
+                "container_max_width": {
+                    "unit": "px"
+                },
+                "container_min_width": {
+                    "unit": "px"
+                },
+                "row_width": {
+                    "unit": "px"
+                },
+                "row_max_width": {
+                    "unit": "px"
+                },
+                "row_min_width": {
+                    "unit": "px"
+                },
+                "padding": "1px 0px 0px 0px",
+                "margin": "0px 0px 0px 0px",
+                "background_type": "none",
+                "background_gradient": {
+                    "color": "#00c6fb",
+                    "color2": "#005bea",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "background_image": "",
+                "background_parallax": "0",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_size_custom": {
+                    "unit": "px"
+                },
+                "background_attachment": "fixed",
+                "background_position": "0 0",
+                "background_position_custom_x": {
+                    "unit": "px"
+                },
+                "background_position_custom_y": {
+                    "unit": "px"
+                },
+                "external_background_video": "0",
+                "video_loop": 1,
+                "overlay_type": "overlay_none",
+                "gradient_overlay": {
+                    "color": "rgba(127, 0, 255, 0.8)",
+                    "color2": "rgba(225, 0, 255, 0.7)",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "pattern_overlay": "",
+                "overlay_pattern_color": "",
+                "blend_mode": "normal",
+                "row_border": 0,
+                "row_border_style": "solid",
+                "row_border_radius": 0,
+                "row_boxshadow": "0 0 0 0 #ffffff",
+                "show_top_shape": "",
+                "shape_name": "clouds-flat",
+                "shape_color": "#e5e5e5",
+                "shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "shape_height": "",
+                "shape_flip": false,
+                "shape_invert": false,
+                "shape_to_front": false,
+                "show_bottom_shape": "",
+                "bottom_shape_name": "clouds-opacity",
+                "bottom_shape_color": "#e5e5e5",
+                "bottom_shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "bottom_shape_height": "",
+                "bottom_shape_flip": false,
+                "bottom_shape_invert": false,
+                "bottom_shape_to_front": false,
+                "hidden_xs": "",
+                "hidden_sm": "",
+                "hidden_md": "",
+                "animationduration": "300",
+                "animationdelay": "0",
+                "hidden_xl": "",
+                "hidden_lg": "",
+                "fit_columns": {
+                    "xl": true,
+                    "lg": true,
+                    "md": true,
+                    "sm": true,
+                    "xs": true
+                }
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "button",
+                            "id": 1582193561532,
+                            "text": "Contact Us",
+                            "images": [],
+                            "data": {
+                                "text": "Contact Us",
+                                "url": {
+                                    "type": "url",
+                                    "url": "index.php/contact-us",
+                                    "menu": "",
+                                    "page": 0,
+                                    "new_tab": false,
+                                    "nofollow": false,
+                                    "noreferrer": false,
+                                    "noopener": false
+                                },
+                                "target": "_self"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "images": [],
+    "allText": "Contact Us"
+}

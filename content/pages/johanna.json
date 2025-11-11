@@ -1,0 +1,838 @@
+{
+    "id": 54,
+    "title": "Johanna",
+    "slug": "johanna",
+    "metaTitle": "Johanna",
+    "metaDescription": "",
+    "metaImage": "",
+    "publishedAt": "2023-08-05 18:09:59",
+    "updatedAt": "2023-08-05 18:45:48",
+    "sections": [
+        {
+            "type": "section",
+            "settings": {
+                "admin_label": "",
+                "title": "",
+                "heading_selector": "h3",
+                "title_fontsize": "",
+                "title_fontweight": "",
+                "title_position": "sppb-text-center",
+                "columns_align_center": 1,
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "padding": {
+                    "xl": "60px 0px 0px 0px",
+                    "lg": "",
+                    "md": "",
+                    "sm": "40px 0px 30px 0px",
+                    "xs": "40px 0px 30px 0px"
+                },
+                "margin": {
+                    "xl": "0px 0px 0px 0px",
+                    "lg": "",
+                    "md": "",
+                    "sm": "",
+                    "xs": ""
+                },
+                "background_type": "none",
+                "background_gradient": {
+                    "color": "#00c6fb",
+                    "color2": "#005bea",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "background_image": "",
+                "background_parallax": "0",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_attachment": "fixed",
+                "background_position": "0 0",
+                "external_background_video": "0",
+                "video_loop": 1,
+                "overlay_type": "overlay_color",
+                "gradient_overlay": {
+                    "color": "rgba(127, 0, 255, 0.8)",
+                    "color2": "rgba(225, 0, 255, 0.7)",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "pattern_overlay": "",
+                "overlay_pattern_color": "",
+                "show_top_shape": 0,
+                "shape_name": "clouds-flat",
+                "shape_color": "#e5e5e5",
+                "shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "shape_height": "",
+                "shape_flip": false,
+                "shape_invert": false,
+                "shape_to_front": false,
+                "show_bottom_shape": 0,
+                "bottom_shape_name": "clouds-opacity",
+                "bottom_shape_color": "#e5e5e5",
+                "bottom_shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "bottom_shape_height": "",
+                "bottom_shape_flip": false,
+                "bottom_shape_invert": false,
+                "bottom_shape_to_front": false,
+                "hidden_xs": "",
+                "hidden_sm": "",
+                "hidden_md": "",
+                "animationduration": "300",
+                "animationdelay": "0",
+                "instFormId": 1542711300771,
+                "row_border": 0,
+                "hidden_xl": "",
+                "hidden_lg": "",
+                "fit_columns": {
+                    "xl": true,
+                    "lg": false,
+                    "md": false,
+                    "sm": false,
+                    "xs": false
+                }
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "person",
+                            "id": 1594325065609,
+                            "text": " ",
+                            "images": [
+                                {
+                                    "src": "images/cornerstone/johanna2.png",
+                                    "height": 325,
+                                    "width": 324
+                                }
+                            ],
+                            "data": {
+                                "name": "",
+                                "designation": "",
+                                "image": {
+                                    "src": "images/cornerstone/johanna2.png",
+                                    "height": 325,
+                                    "width": 324
+                                },
+                                "email": "",
+                                "phone": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "addons": [
+                        {
+                            "type": "heading",
+                            "id": 1593347959751,
+                            "text": "Shamia C. ",
+                            "images": [],
+                            "data": {
+                                "text": "Shamia C. ",
+                                "level": "h2"
+                            }
+                        },
+                        {
+                            "type": "heading",
+                            "id": 1593347959752,
+                            "text": "Chief Operation Officer",
+                            "images": [],
+                            "data": {
+                                "text": "Chief Operation Officer",
+                                "level": "h3"
+                            }
+                        },
+                        {
+                            "type": "divider",
+                            "id": 1593347959753,
+                            "text": "link-color-opt3 0 0 0 0 #ffffff ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "divider_type": "border",
+                                "divider_image": "",
+                                "background_repeat": "no-repeat",
+                                "divider_height": "10",
+                                "divider_position": {
+                                    "xl": "left",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "container_div_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "border_style": "solid",
+                                "border_width": "1",
+                                "border_radius": "",
+                                "border_color": "",
+                                "margin_top": {
+                                    "xl": "10",
+                                    "lg": "10",
+                                    "md": "10",
+                                    "sm": 10,
+                                    "xs": 10
+                                },
+                                "margin_bottom": {
+                                    "xl": "20",
+                                    "lg": 20,
+                                    "md": 20,
+                                    "sm": "20",
+                                    "xs": "20"
+                                },
+                                "class": "link-color-opt3",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_use_overlay": 0,
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_user_border": 0,
+                                "global_border_width": "",
+                                "global_border_radius": 0,
+                                "global_margin": {
+                                    "xl": "0 0 0px 0",
+                                    "lg": "0 0 0px 0",
+                                    "md": "0 0 0px 0",
+                                    "sm": "0 0 0px 0",
+                                    "xs": "0 0 0px 0"
+                                },
+                                "global_padding": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #ffffff",
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_custom_css": "",
+                                "use_global_width": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "instFormId": 1542711301041,
+                                "hidden_xl": "0",
+                                "hidden_lg": "0"
+                            }
+                        },
+                        {
+                            "type": "text_block",
+                            "id": 1593347959754,
+                            "text": "Johanna Jones of Cornerstone Deliverance &amp; Development Ministries for Christ, Inc. is the Chief \u201cGet It Done\u201d O\ufb03cer. Her reputation as a thorough, sensible, and hands-on business professional with a keen awareness of the human impact makes her a dynamic asset to the daily operations and results of our team.&nbsp; Mrs. Jones brings a wealth of diverse knowledge and experience from a variety of public and private areas such as education, government, community-based programs, grant writing, program management, consulting, and legal. She is known for her honesty, resilience, and ability to connect, develop, and champion people and processes. Johanna has a Master of Education in Educational Leadership from Lynn University as well as a Bachelor\u2019s of Science in Social Work with a Minor in Psychology from West Virginia University, Paralegal Certificate from Florida Atlantic University, &nbsp;and pursuing an Associate\u2019s Degree Funeral Director and Embalming from Gupton-Jones College of Funeral Services.&nbsp; Mrs. Jones believes that good people who \"do the work\u201d make a great team and great teams provide excellent service which directly impacts the client.&nbsp; 0 0 0 0 #ffffff ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "title": "",
+                                "heading_selector": "h3",
+                                "title_fontsize": "",
+                                "title_lineheight": "",
+                                "title_letterspace": "0",
+                                "text": "<p>Johanna Jones of Cornerstone Deliverance &amp; Development Ministries for Christ, Inc. is the Chief \u201cGet It Done\u201d O\ufb03cer. Her reputation as a thorough, sensible, and hands-on business professional with a keen awareness of the human impact makes her a dynamic asset to the daily operations and results of our team.&nbsp; Mrs. Jones brings a wealth of diverse knowledge and experience from a variety of public and private areas such as education, government, community-based programs, grant writing, program management, consulting, and legal. She is known for her honesty, resilience, and ability to connect, develop, and champion people and processes. Johanna has a <strong><em>Master of Education in Educational Leadership from Lynn University</em></strong> as well as a <strong><em>Bachelor\u2019s of Science in Social Work with a Minor in Psychology from West Virginia University, Paralegal Certificate from Florida Atlantic University, </em></strong>&nbsp;and pursuing an <strong><em>Associate\u2019s Degree Funeral Director and Embalming from Gupton-Jones College</em></strong> of Funeral Services.&nbsp; Mrs. Jones believes that good people who \"do the work\u201d make a great team and great teams provide excellent service which directly impacts the client.&nbsp;</p>",
+                                "alignment": "",
+                                "text_fontsize": {
+                                    "xl": "16",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "14",
+                                    "xs": "14"
+                                },
+                                "text_lineheight": {
+                                    "xl": "26",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "24",
+                                    "xs": "24"
+                                },
+                                "text_fontweight": "300",
+                                "dropcap": 0,
+                                "class": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_use_overlay": 0,
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_user_border": 0,
+                                "global_border_width": "",
+                                "global_border_radius": 0,
+                                "global_margin": {
+                                    "xl": "0 0 0px 0",
+                                    "lg": "0 0 0px 0",
+                                    "md": "0 0 0px 0",
+                                    "sm": "0 0 10px 0",
+                                    "xs": "0 0 10px 0"
+                                },
+                                "global_padding": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #ffffff",
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_custom_css": "",
+                                "use_global_width": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "instFormId": 1542712190422,
+                                "text_font_family": "",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "text_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "16",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "14",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "14",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "26",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "24",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "24",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": false,
+                                    "italic": false,
+                                    "underline": false,
+                                    "weight": "300",
+                                    "type": "google"
+                                },
+                                "title_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "0",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": "",
+                                    "italic": "",
+                                    "underline": "",
+                                    "weight": "",
+                                    "type": "google"
+                                }
+                            }
+                        },
+                        {
+                            "type": "divider",
+                            "id": 1593347959755,
+                            "text": "link-color-opt3 0 0 0 0 #ffffff ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "divider_type": "border",
+                                "divider_image": "",
+                                "background_repeat": "no-repeat",
+                                "divider_height": "10",
+                                "divider_position": {
+                                    "xl": "left",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "container_div_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "border_style": "solid",
+                                "border_width": "1",
+                                "border_radius": "",
+                                "border_color": "",
+                                "margin_top": {
+                                    "xl": "28",
+                                    "lg": "28",
+                                    "md": "28",
+                                    "sm": "20",
+                                    "xs": "20"
+                                },
+                                "margin_bottom": {
+                                    "xl": "6",
+                                    "lg": "6",
+                                    "md": "6",
+                                    "sm": "6",
+                                    "xs": "6"
+                                },
+                                "class": "link-color-opt3",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_use_overlay": 0,
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_user_border": 0,
+                                "global_border_width": "",
+                                "global_border_radius": 0,
+                                "global_margin": {
+                                    "xl": "0 0 0px 0",
+                                    "lg": "0 0 0px 0",
+                                    "md": "0 0 0px 0",
+                                    "sm": "0 0 0px 0",
+                                    "xs": "0 0 0px 0"
+                                },
+                                "global_padding": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #ffffff",
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_custom_css": "",
+                                "use_global_width": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "instFormId": 1542715936472,
+                                "hidden_xl": "0",
+                                "hidden_lg": "0"
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "id": 1594326301656,
+                            "text": "Click here to view Full Resume/Biography",
+                            "images": [],
+                            "data": {
+                                "text": "Click here to view Full Resume/Biography",
+                                "url": "/media/attachments/biography/JCourtsBio.pdf",
+                                "target": "_blank"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "settings": {
+                "admin_label": "",
+                "title": "",
+                "heading_selector": "h3",
+                "title_fontsize": "",
+                "title_fontweight": "",
+                "title_position": "sppb-text-center",
+                "columns_align_center": 0,
+                "columns_content_alignment": "center",
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "container_width": {
+                    "unit": "px"
+                },
+                "container_max_width": {
+                    "unit": "px"
+                },
+                "container_min_width": {
+                    "unit": "px"
+                },
+                "row_width": {
+                    "unit": "px"
+                },
+                "row_max_width": {
+                    "unit": "px"
+                },
+                "row_min_width": {
+                    "unit": "px"
+                },
+                "padding": "50px 0px 50px 0px",
+                "margin": "0px 0px 0px 0px",
+                "background_type": "none",
+                "background_gradient": {
+                    "color": "#00c6fb",
+                    "color2": "#005bea",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "background_image": {
+                    "src": ""
+                },
+                "background_parallax": "0",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_size_custom": {
+                    "unit": "px"
+                },
+                "background_attachment": "fixed",
+                "background_position": "0 0",
+                "background_position_custom_x": {
+                    "unit": "px"
+                },
+                "background_position_custom_y": {
+                    "unit": "px"
+                },
+                "external_background_video": "0",
+                "background_video_mp4": {
+                    "src": ""
+                },
+                "background_video_ogv": {
+                    "src": ""
+                },
+                "video_loop": 1,
+                "overlay_type": "overlay_none",
+                "gradient_overlay": {
+                    "color": "rgba(127, 0, 255, 0.8)",
+                    "color2": "rgba(225, 0, 255, 0.7)",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "pattern_overlay": "",
+                "overlay_pattern_color": "",
+                "blend_mode": "normal",
+                "row_border": 0,
+                "row_border_style": "solid",
+                "row_border_radius": 0,
+                "row_boxshadow": "0 0 0 0 #ffffff",
+                "show_top_shape": "",
+                "shape_name": "clouds-flat",
+                "shape_color": "#e5e5e5",
+                "shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "shape_height": "",
+                "shape_flip": false,
+                "shape_invert": false,
+                "shape_to_front": false,
+                "show_bottom_shape": "",
+                "bottom_shape_name": "clouds-opacity",
+                "bottom_shape_color": "#e5e5e5",
+                "bottom_shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "bottom_shape_height": "",
+                "bottom_shape_flip": false,
+                "bottom_shape_invert": false,
+                "bottom_shape_to_front": false,
+                "hidden_xs": "",
+                "hidden_sm": "",
+                "hidden_md": "",
+                "animationduration": "300",
+                "animationdelay": "0",
+                "hidden_xl": "",
+                "hidden_lg": "",
+                "fit_columns": {
+                    "xl": true,
+                    "lg": true,
+                    "md": true,
+                    "sm": true,
+                    "xs": true
+                }
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "empty_space",
+                            "id": 1594329673611,
+                            "text": "overlay_none 0 0 0 0 #ffffff ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "gap": {
+                                    "xl": "20",
+                                    "lg": 30,
+                                    "md": 30,
+                                    "sm": 20,
+                                    "xs": 20
+                                },
+                                "class": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": "",
+                                "global_border_radius": 0,
+                                "global_margin": {
+                                    "xl": "0px 0px 30px 0px",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_padding": "",
+                                "global_boxshadow": "0 0 0 0 #ffffff",
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "hidden_xl": "0",
+                                "hidden_lg": "0"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/cornerstone/johanna2.png",
+            "height": 325,
+            "width": 324
+        }
+    ],
+    "allText": "Shamia C. \n\nChief Operation Officer\n\nlink-color-opt3 0 0 0 0 #ffffff \n\nJohanna Jones of Cornerstone Deliverance &amp; Development Ministries for Christ, Inc. is the Chief \u201cGet It Done\u201d O\ufb03cer. Her reputation as a thorough, sensible, and hands-on business professional with a keen awareness of the human impact makes her a dynamic asset to the daily operations and results of our team.&nbsp; Mrs. Jones brings a wealth of diverse knowledge and experience from a variety of public and private areas such as education, government, community-based programs, grant writing, program management, consulting, and legal. She is known for her honesty, resilience, and ability to connect, develop, and champion people and processes. Johanna has a Master of Education in Educational Leadership from Lynn University as well as a Bachelor\u2019s of Science in Social Work with a Minor in Psychology from West Virginia University, Paralegal Certificate from Florida Atlantic University, &nbsp;and pursuing an Associate\u2019s Degree Funeral Director and Embalming from Gupton-Jones College of Funeral Services.&nbsp; Mrs. Jones believes that good people who \"do the work\u201d make a great team and great teams provide excellent service which directly impacts the client.&nbsp; 0 0 0 0 #ffffff \n\nlink-color-opt3 0 0 0 0 #ffffff \n\nClick here to view Full Resume/Biography\n\noverlay_none 0 0 0 0 #ffffff"
+}

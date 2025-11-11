@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Our Team",
+    "image": "/images/cornerstone/hero/hero4.jpg"
+  },
+  "team": {
+    "title": "People that holds us",
+    "subtitle": "A group of dedicated and unwavering men and women who are dedicated to serving your every need, daily!",
+    "members": [
+      {
+        "name": "Andrew James Jones",
+        "title": "Executive Director",
+        "image": "/images/cornerstone/siteImages/team/foundert1.png",
+        "link": "/team/andrew-jones"
+      },
+      {
+        "name": "Johanna L. Courts",
+        "title": "Chief Operating Officer",
+        "image": "/images/cornerstone/johanna2.png",
+        "link": "/team/johanna-courts"
+      },
+      {
+        "name": "Patricia B. Davis",
+        "title": "Director of Education",
+        "image": "/images/cornerstone/patricia.png",
+        "link": "/team/patricia-davis"
+      },
+      {
+        "name": "Lovetta Ford",
+        "title": "Associate Director",
+        "image": "/images/cornerstone/siteImages/team/educatort1.png",
+        "link": "/team/lovetta-ford"
+      },
+      {
+        "name": "Ivory Jones",
+        "title": "Public Relations",
+        "image": "/images/cornerstone/ivory2.png",
+        "link": "/team/ivory-jones"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to work with us?",
+    "subtitle": "Start working with us today and get a wonderful experience",
+    "buttonText": "LEARN MORE",
+    "buttonLink": "/contact"
+  }
+}

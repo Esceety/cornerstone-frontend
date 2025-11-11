@@ -1,0 +1,745 @@
+{
+    "id": 59,
+    "title": "Family Strengthening & Stabilization",
+    "slug": "family-strengthening-stabilization",
+    "metaTitle": "Family Strengthening & Stabilization",
+    "metaDescription": "",
+    "metaImage": "",
+    "publishedAt": "2023-08-05 19:18:44",
+    "updatedAt": "2023-08-05 20:06:32",
+    "sections": [
+        {
+            "type": "section",
+            "settings": {
+                "admin_label": "",
+                "title": "",
+                "heading_selector": "h3",
+                "title_fontsize": "",
+                "title_fontweight": "",
+                "subtitle_fontsize": "",
+                "title_position": "sppb-text-center",
+                "columns_align_center": 1,
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "padding": {
+                    "xl": "50px 0px 160px 0px",
+                    "lg": "100px 0px 100px 0px",
+                    "md": "100px 0px 100px 0px",
+                    "sm": "50px 0px 50px 0px",
+                    "xs": "50px 0px 50px 0px"
+                },
+                "margin": {
+                    "xl": "0px 0px 0px 0px",
+                    "lg": "",
+                    "md": "",
+                    "sm": "",
+                    "xs": ""
+                },
+                "background_image": "",
+                "background_parallax": 0,
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_attachment": "fixed",
+                "background_position": "0 0",
+                "background_video": 0,
+                "external_background_video": "0",
+                "show_top_shape": 0,
+                "shape_name": "clouds-flat",
+                "shape_color": "#e5e5e5",
+                "shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "shape_height": "",
+                "shape_flip": false,
+                "shape_invert": false,
+                "shape_to_front": false,
+                "show_bottom_shape": 0,
+                "bottom_shape_name": "clouds-opacity",
+                "bottom_shape_color": "#e5e5e5",
+                "bottom_shape_width": {
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "bottom_shape_height": "",
+                "bottom_shape_flip": false,
+                "bottom_shape_invert": false,
+                "bottom_shape_to_front": false,
+                "hidden_xs": "",
+                "hidden_sm": "",
+                "hidden_md": "",
+                "animationduration": "300",
+                "animationdelay": "0",
+                "row_border": 0,
+                "hidden_xl": "",
+                "hidden_lg": "",
+                "background_type": "none",
+                "fit_columns": {
+                    "xl": true,
+                    "lg": false,
+                    "md": false,
+                    "sm": false,
+                    "xs": false
+                }
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "text_block",
+                            "id": 1593957531737,
+                            "text": "Family Strengthening & Stabilization Cornerstone Deliverance &amp; Development Ministries for Christ, Inc is dedicated to empowering families through our Family Strengthening and Stabilization services. We understand the importance of a stable and supportive family environment, and our mission is to nurture and strengthen familial bonds. Through a comprehensive and holistic approach, we offer tailored interventions and resources to address the unique needs of each family. Our team collaborates closely with families, providing guidance, counseling, and community-based support to promote healthy communication, resilience, and personal growth. With a focus on unity and well-being, we strive to empower families to overcome challenges and thrive together in an atmosphere of love and understanding. rgba(70, 72, 85, 0.7) ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "title": "Family Strengthening & Stabilization",
+                                "heading_selector": "h2",
+                                "title_fontsize": {
+                                    "xl": "40",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "30",
+                                    "xs": "30"
+                                },
+                                "title_lineheight": {
+                                    "xl": "54",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "40",
+                                    "xs": "40"
+                                },
+                                "title_letterspace": "0",
+                                "title_fontweight": "",
+                                "text": "Cornerstone Deliverance &amp; Development Ministries for Christ, Inc is dedicated to empowering families through our Family Strengthening and Stabilization services. We understand the importance of a stable and supportive family environment, and our mission is to nurture and strengthen familial bonds. Through a comprehensive and holistic approach, we offer tailored interventions and resources to address the unique needs of each family. Our team collaborates closely with families, providing guidance, counseling, and community-based support to promote healthy communication, resilience, and personal growth. With a focus on unity and well-being, we strive to empower families to overcome challenges and thrive together in an atmosphere of love and understanding.",
+                                "alignment": "",
+                                "text_fontsize": {
+                                    "xl": "16",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "text_lineheight": {
+                                    "xl": "25",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "dropcap": 0,
+                                "class": "",
+                                "title_font_style": {
+                                    "weight": 300
+                                },
+                                "title_margin_bottom": {
+                                    "xl": "60",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "15",
+                                    "xs": "15"
+                                },
+                                "title_margin_top": {
+                                    "xl": "0",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_background": 0,
+                                "global_user_border": 0,
+                                "global_margin": {
+                                    "xl": "0px 0px 50px 0px",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_padding": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_animation": 0,
+                                "global_text_color": "rgba(70, 72, 85, 0.7)",
+                                "title_text_color": "#464855",
+                                "text_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "16",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "25",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": false,
+                                    "italic": false,
+                                    "underline": false,
+                                    "weight": "",
+                                    "type": "google"
+                                },
+                                "title_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "40",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "30",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "30",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "54",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "40",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "40",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "0",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": "",
+                                    "italic": "",
+                                    "underline": "",
+                                    "weight": 300,
+                                    "type": "google"
+                                }
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "id": 1593957531738,
+                            "text": "Button Text",
+                            "images": [],
+                            "data": {
+                                "text": "Button Text",
+                                "url": "",
+                                "target": "_self"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "addons": [
+                        {
+                            "type": "image",
+                            "id": 1593957531740,
+                            "text": "",
+                            "images": [
+                                "images/cornerstone/programs/youth_in_action.jpg"
+                            ],
+                            "data": {
+                                "src": "images/cornerstone/programs/youth_in_action.jpg",
+                                "alt": "Image",
+                                "title": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "section",
+            "settings": {
+                "padding": {
+                    "xl": "100px 0px 70px 0px",
+                    "lg": "",
+                    "md": "",
+                    "sm": "100px 0px 100px 0px",
+                    "xs": "100px 0px 100px 0px"
+                },
+                "margin": {
+                    "xl": "0px 0px 40px 0px",
+                    "lg": "",
+                    "md": "",
+                    "sm": "",
+                    "xs": ""
+                },
+                "columns_equal_height": 0,
+                "columns_align_center": 0,
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "background_parallax": 0,
+                "background_video": 0,
+                "hidden_xs": 0,
+                "hidden_sm": 0,
+                "hidden_md": 0,
+                "background_color": "#202020",
+                "row_border": 0,
+                "show_top_shape": 0,
+                "show_bottom_shape": 0,
+                "hidden_xl": 0,
+                "hidden_lg": 0,
+                "background_type": "color",
+                "fit_columns": {
+                    "xl": false,
+                    "lg": false,
+                    "md": false,
+                    "sm": false,
+                    "xs": false
+                }
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "heading",
+                            "id": 1582813832386,
+                            "text": "Ready to work with us?\n",
+                            "images": [],
+                            "data": {
+                                "text": "Ready to work with us?\n",
+                                "level": "h2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "addons": [
+                        {
+                            "type": "text_block",
+                            "id": 1582628445934,
+                            "text": "Start working with us today and get a wonderfull experience overlay_none 0 0 0 0 #ffffff ",
+                            "images": [],
+                            "data": {
+                                "admin_label": "",
+                                "title": "",
+                                "heading_selector": "h3",
+                                "title_fontsize": "",
+                                "title_lineheight": "",
+                                "title_letterspace": "0",
+                                "text": "Start working with us today and get a wonderfull experience",
+                                "alignment": "",
+                                "text_fontsize": {
+                                    "xl": "22",
+                                    "lg": "18",
+                                    "md": "18",
+                                    "sm": "16",
+                                    "xs": "16"
+                                },
+                                "text_lineheight": {
+                                    "xl": "34",
+                                    "lg": "26",
+                                    "md": "26",
+                                    "sm": "24",
+                                    "xs": "24"
+                                },
+                                "text_fontweight": "",
+                                "dropcap": 0,
+                                "class": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": "",
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": "",
+                                "global_border_radius": 0,
+                                "global_margin": {
+                                    "xl": "0px 0px 30px 0px",
+                                    "lg": "0px 0px 20px 0px",
+                                    "md": "0px 0px 20px 0px",
+                                    "sm": "0px 0px 20px 0px",
+                                    "xs": "0px 0px 20px 0px"
+                                },
+                                "global_padding": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #ffffff",
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "instFormId": 1582628445934,
+                                "global_text_color": "#ffffff",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "text_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "22",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "18",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "18",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "16",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "16",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "34",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "26",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "26",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "24",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "24",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": false,
+                                    "italic": false,
+                                    "underline": false,
+                                    "weight": "",
+                                    "type": "google"
+                                },
+                                "title_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "0",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": "",
+                                    "italic": "",
+                                    "underline": "",
+                                    "weight": "",
+                                    "type": "google"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "addons": [
+                        {
+                            "type": "button",
+                            "id": 1582628727958,
+                            "text": "Contact Us",
+                            "images": [],
+                            "data": {
+                                "text": "Contact Us",
+                                "url": {
+                                    "type": "url",
+                                    "url": "/contact",
+                                    "menu": "",
+                                    "page": 0,
+                                    "new_tab": false,
+                                    "nofollow": false,
+                                    "noreferrer": false,
+                                    "noopener": false
+                                },
+                                "target": "_self"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "images": [
+        "images/cornerstone/programs/youth_in_action.jpg"
+    ],
+    "allText": "Family Strengthening & Stabilization Cornerstone Deliverance &amp; Development Ministries for Christ, Inc is dedicated to empowering families through our Family Strengthening and Stabilization services. We understand the importance of a stable and supportive family environment, and our mission is to nurture and strengthen familial bonds. Through a comprehensive and holistic approach, we offer tailored interventions and resources to address the unique needs of each family. Our team collaborates closely with families, providing guidance, counseling, and community-based support to promote healthy communication, resilience, and personal growth. With a focus on unity and well-being, we strive to empower families to overcome challenges and thrive together in an atmosphere of love and understanding. rgba(70, 72, 85, 0.7) \n\nButton Text\n\nReady to work with us?\n\n\nStart working with us today and get a wonderfull experience overlay_none 0 0 0 0 #ffffff \n\nContact Us"
+}

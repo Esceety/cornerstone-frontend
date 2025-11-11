@@ -1,0 +1,1025 @@
+{
+    "id": 68,
+    "title": "Thank You For Your Submission",
+    "slug": "thank-you-for-your-submission",
+    "metaTitle": "Thank You For Your Submission",
+    "metaDescription": "",
+    "metaImage": "",
+    "publishedAt": "2023-08-05 21:55:11",
+    "updatedAt": "2023-08-05 21:55:43",
+    "sections": [
+        {
+            "type": "section",
+            "settings": {
+                "fit_columns": {
+                    "xl": true,
+                    "sm": false
+                },
+                "background_type": "color",
+                "background_gradient": {
+                    "color": "#00c6fb",
+                    "color2": "#005bea",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "background_image": {
+                    "src": ""
+                },
+                "background_parallax": "0",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_size_custom": {
+                    "unit": "px"
+                },
+                "background_attachment": "fixed",
+                "background_position": "0 0",
+                "background_position_custom_x": {
+                    "unit": "px"
+                },
+                "background_position_custom_y": {
+                    "unit": "px"
+                },
+                "external_background_video": 0,
+                "background_video_ogv": {
+                    "src": ""
+                },
+                "video_loop": 1,
+                "overlay_type": "overlay_none",
+                "gradient_overlay": {
+                    "color": "rgba(127, 0, 255, 0.8)",
+                    "color2": "rgba(225, 0, 255, 0.7)",
+                    "deg": "45",
+                    "type": "linear"
+                },
+                "pattern_overlay": "",
+                "overlay_pattern_color": "",
+                "blend_mode": "normal",
+                "columns_align_center": 0,
+                "columns_content_alignment": "center",
+                "fullscreen": 0,
+                "no_gutter": 0,
+                "row_width": {
+                    "unit": "px"
+                },
+                "row_max_width": {
+                    "unit": "px"
+                },
+                "row_min_width": {
+                    "unit": "px"
+                },
+                "padding": {
+                    "xxl": "75px 0px 75px 0px",
+                    "xl": "119px 0px 1px 0px",
+                    "lg": "   ",
+                    "md": "   ",
+                    "sm": "   ",
+                    "xs": "50px 0px 50px 0px"
+                },
+                "margin": {
+                    "xxl": "   ",
+                    "xl": "0px 0px 0px 0px",
+                    "lg": "   ",
+                    "md": "   ",
+                    "sm": "   ",
+                    "xs": "   "
+                },
+                "row_border": 0,
+                "row_border_style": "solid",
+                "row_boxshadow": {
+                    "ho": 0,
+                    "vo": 0,
+                    "blur": 0,
+                    "spread": 0,
+                    "color": "#FFFFFF",
+                    "inset": false,
+                    "enabled": false
+                },
+                "show_top_shape": "",
+                "shape_name": "clouds-flat",
+                "shape_color": "#e5e5e5",
+                "shape_width": {
+                    "xxl": 100,
+                    "xl": 100,
+                    "lg": 100,
+                    "md": 100,
+                    "sm": 100,
+                    "xs": 100
+                },
+                "shape_height": "",
+                "shape_flip": false,
+                "shape_invert": false,
+                "shape_to_front": false,
+                "show_bottom_shape": "",
+                "bottom_shape_name": "clouds-opacity",
+                "bottom_shape_color": "#e5e5e5",
+                "bottom_shape_width": {
+                    "xl": 100
+                },
+                "bottom_shape_height": "",
+                "bottom_shape_flip": false,
+                "bottom_shape_invert": false,
+                "bottom_shape_to_front": false,
+                "heading_selector": "h3",
+                "title_fontsize": "",
+                "title_fontweight": "",
+                "title_position": "center",
+                "admin_label": "",
+                "hidden_xxl": "",
+                "hidden_xl": "",
+                "hidden_lg": "",
+                "hidden_md": "",
+                "hidden_sm": "",
+                "hidden_xs": "",
+                "enable_animation": "1",
+                "animationduration": "300",
+                "animationdelay": "0",
+                "instFormId": 1680510767634,
+                "background_color": "var(--element-color-2)"
+            },
+            "columns": [
+                {
+                    "addons": [
+                        {
+                            "type": "empty_space",
+                            "id": 1680515127843,
+                            "text": "overlay_none #addonId{\n\twidth: 181px;\n  height: 638px;\n} var(--element-color-1) ",
+                            "images": [],
+                            "data": {
+                                "global_padding": {
+                                    "xxl": "   ",
+                                    "xl": "   ",
+                                    "lg": "   ",
+                                    "md": "   ",
+                                    "sm": "   ",
+                                    "xs": "   "
+                                },
+                                "global_margin": {
+                                    "xxl": "   ",
+                                    "xl": "   ",
+                                    "lg": "   ",
+                                    "md": "   ",
+                                    "sm": "   ",
+                                    "xs": "   "
+                                },
+                                "global_background_type": "color",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": {
+                                    "xxl": "",
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_border_radius": {
+                                    "xxl": "",
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": {
+                                    "ho": 0,
+                                    "vo": 0,
+                                    "blur": 0,
+                                    "spread": 0,
+                                    "color": "#FFFFFF",
+                                    "inset": false,
+                                    "enabled": false
+                                },
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "class": "",
+                                "global_custom_css": "#addonId{\n\twidth: 181px;\n  height: 638px;\n}",
+                                "global_custom_position": true,
+                                "global_seclect_position": "absolute",
+                                "global_addon_position_left": {
+                                    "xxl": "",
+                                    "xl": "-250",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": "",
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "xxl": "",
+                                    "xl": "-200",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": "",
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_xxl": "0",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "admin_label": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "scrolling_options": "fullpage",
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "gap": {
+                                    "xl": 40
+                                },
+                                "instFormId": 1680515127843,
+                                "global_background_color": "var(--element-color-1)"
+                            }
+                        },
+                        {
+                            "type": "heading",
+                            "id": "xJfHe1lNNnqtZOIi7slsR",
+                            "text": "Thank You!",
+                            "images": [],
+                            "data": {
+                                "text": "Thank You!",
+                                "level": "h2"
+                            }
+                        },
+                        {
+                            "type": "text_block",
+                            "id": "ff734ab5-9eb3-489b-9201-881c76272b47",
+                            "text": "overlay_none 0 0 0 0 #FFFFFF We received your submission. We will follow up with you shortly! ",
+                            "images": [],
+                            "data": {
+                                "global_padding": "",
+                                "global_margin": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_border_radius": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #FFFFFF",
+                                "class": "",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "admin_label": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "scrolling_options": "fullpage",
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "text": "<p>We received your submission. We will follow up with you shortly!<span id=\"_mce_caret\" data-mce-bogus=\"1\" data-mce-type=\"format-caret\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"></span></span></p>",
+                                "dropcap": 0,
+                                "heading_selector": "h3",
+                                "title": "",
+                                "alignment": {
+                                    "xl": "center"
+                                },
+                                "text_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": false,
+                                    "italic": false,
+                                    "underline": false,
+                                    "weight": "",
+                                    "type": "google"
+                                },
+                                "title_typography": {
+                                    "font": "",
+                                    "size": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "line_height": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "letter_spacing": {
+                                        "xl": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "lg": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "md": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "sm": {
+                                            "value": "",
+                                            "unit": "px"
+                                        },
+                                        "xs": {
+                                            "value": "",
+                                            "unit": "px"
+                                        }
+                                    },
+                                    "uppercase": "",
+                                    "italic": "",
+                                    "underline": "",
+                                    "weight": "",
+                                    "type": "google"
+                                }
+                            }
+                        },
+                        {
+                            "type": "empty_space",
+                            "id": "552b3dda-3fbf-4b99-ad07-89ebf6b20230",
+                            "text": "overlay_none 0 0 0 0 #FFFFFF ",
+                            "images": [],
+                            "data": {
+                                "global_padding": "",
+                                "global_margin": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_border_radius": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #FFFFFF",
+                                "class": "",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "admin_label": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "scrolling_options": "fullpage",
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "gap": {
+                                    "xl": 40
+                                }
+                            }
+                        },
+                        {
+                            "type": "empty_space",
+                            "id": "fb1c0e1d-0730-4b80-94d4-d5ed43e7e558",
+                            "text": "overlay_none 0 0 0 0 #FFFFFF ",
+                            "images": [],
+                            "data": {
+                                "global_padding": "",
+                                "global_margin": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_border_radius": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #FFFFFF",
+                                "class": "",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "admin_label": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "scrolling_options": "fullpage",
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "gap": {
+                                    "xl": 40
+                                }
+                            }
+                        },
+                        {
+                            "type": "empty_space",
+                            "id": "65690fad-487e-4a07-b88f-8a6a08fbf2cd",
+                            "text": "overlay_none 0 0 0 0 #FFFFFF ",
+                            "images": [],
+                            "data": {
+                                "global_padding": "",
+                                "global_margin": "",
+                                "global_background_type": "none",
+                                "global_background_gradient": {
+                                    "color": "#00c6fb",
+                                    "color2": "#005bea",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_background_image": {
+                                    "src": ""
+                                },
+                                "global_background_repeat": "no-repeat",
+                                "global_background_size": "cover",
+                                "global_background_attachment": "inherit",
+                                "global_background_position": "50% 50%",
+                                "global_use_overlay": 0,
+                                "global_overlay_type": "overlay_none",
+                                "global_gradient_overlay": {
+                                    "color": "rgba(127, 0, 255, 0.8)",
+                                    "color2": "rgba(225, 0, 255, 0.7)",
+                                    "deg": "45",
+                                    "type": "linear"
+                                },
+                                "global_pattern_overlay": {
+                                    "src": ""
+                                },
+                                "global_overlay_pattern_color": "",
+                                "blend_mode": "normal",
+                                "global_user_border": 0,
+                                "global_border_width": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_use_animation": 0,
+                                "global_animationduration": "300",
+                                "global_animationdelay": "0",
+                                "global_border_radius": {
+                                    "xl": "",
+                                    "lg": "",
+                                    "md": "",
+                                    "sm": "",
+                                    "xs": ""
+                                },
+                                "global_boxshadow": "0 0 0 0 #FFFFFF",
+                                "class": "",
+                                "global_custom_css": "",
+                                "global_custom_position": 0,
+                                "global_seclect_position": "relative",
+                                "global_addon_position_left": {
+                                    "unit": "px"
+                                },
+                                "global_addon_position_top": {
+                                    "unit": "px"
+                                },
+                                "use_global_width": "0",
+                                "hidden_xl": "0",
+                                "hidden_lg": "0",
+                                "hidden_md": "0",
+                                "hidden_sm": "0",
+                                "hidden_xs": "0",
+                                "acl": "",
+                                "admin_label": "",
+                                "while_scroll_view": [
+                                    {
+                                        "enable_while_scroll_view": 0,
+                                        "scrolling_options": "fullpage",
+                                        "on_scroll_actions": [
+                                            {
+                                                "id": "b3fdc1c1e6bfde5942ea",
+                                                "index": 0,
+                                                "keyframe": 0,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": "0",
+                                                    "y": "-100",
+                                                    "z": "0"
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            },
+                                            {
+                                                "id": "936e0225e6dc8edfba7d",
+                                                "index": 1,
+                                                "keyframe": 100,
+                                                "name": "move",
+                                                "property": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "z": 0
+                                                },
+                                                "range": {
+                                                    "max": 500,
+                                                    "min": -500,
+                                                    "stop": 1
+                                                },
+                                                "single": true,
+                                                "title": "Move"
+                                            }
+                                        ],
+                                        "transition_origin_x": "center",
+                                        "transition_origin_y": "center",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "mouse_movement": [
+                                    {
+                                        "enable_tilt_effect": 0,
+                                        "mouse_tilt_direction": "direct",
+                                        "mouse_tilt_speed": "1",
+                                        "mouse_tilt_max": "15",
+                                        "enable_tablet": 0,
+                                        "enable_mobile": 0
+                                    }
+                                ],
+                                "gap": {
+                                    "xl": 40
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "images": [],
+    "allText": "overlay_none #addonId{\n\twidth: 181px;\n  height: 638px;\n} var(--element-color-1) \n\nThank You!\n\noverlay_none 0 0 0 0 #FFFFFF We received your submission. We will follow up with you shortly! \n\noverlay_none 0 0 0 0 #FFFFFF \n\noverlay_none 0 0 0 0 #FFFFFF \n\noverlay_none 0 0 0 0 #FFFFFF"
+}

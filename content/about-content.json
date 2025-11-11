@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "Our Company",
+    "image": "/images/cornerstone/hero/hero4.jpg"
+  },
+  "welcome": {
+    "title": "Welcome",
+    "subtitle": "Message from Our Founder",
+    "image": "/images/cornerstone/siteImages/team/foundert1.png",
+    "message": "It has been quoted that Knowledge is Power, yet many leaders wield that power as control instead of contribution. Mr. Andrew Jones, Founder and Executive Director of Cornerstone Deliverance & Development Ministries, Inc. based in Pompano Beach, Florida, believes that knowledge is meant to empower in order for people to help people. According to Mr. Jones, \"At the end of the day, every business is in the people business — if your business doesn't care about people, then you're out of business.\"",
+    "signature": "AJ Jones"
+  },
+  "companyDescription": [
+    "At Cornerstone, we work diligently to assemble a dedicated team — providing opportunities and tools needed for success AND caring for our team members as they develop and meet their personal and business goals. We believe that the Cornerstone Client Care mindset transcends beyond the \"business as usual\" approach and transforms the client relationship at the very foundation. The building block of this business is to operate and implement high-level solutions that transform, transcend, and provide a measurable impact directly to clients.",
+    "Mr. Jones has shown his commitment and drive for learning and helping others throughout his life. Authentically, known as the \"Jones of All Trades\" his care for people can be identified through a culmination of experiences providing a hands-on perspective of the human condition. As the youngest of seven children born to parents dedicated to ministry and community development, Andrew learned a valuable leadership cornerstone that has been foundational to his success, which is \"decisions come from the top, but the top has to come down to meet people where they are.\" As an accomplished Collegiate Division I Athlete, Mentor, Coach, Teacher, Minister, Financial Consultant, Business Developer, Community Leader, and Entrepreneur; Andrew's unwavering commitment, trust and drive to oversee plans and processes to fruition ensuring valuable connections are made along the way, have created clear pathways and vision to help people successfully navigate otherwise intimidating markers and systems. Mr. Jones takes great joy in his family and preparing his children and teaching other young people that learning is a lifelong pursuit and contribution to the community is a worthy application to be necessary to build character.",
+    "Born and raised in Florida and a proud graduate of Dillard High School, Mr. Jones began Cornerstone Deliverance & Development Ministries, Inc. to eliminate historic poverty and dependency-inducing systems through development of self-actualizing and self-sustaining community-based organizations with a specific emphasis toward American inner-city communities. Since then, Cornerstone Deliverance & Development Ministries has expanded to create, develop, and grow relationships and businesses that extend and support our foundational groundwork.",
+    "Mr. Jones has impressively earned the following educational accomplishments, which truly reflect his passion for people and service at every stage of life: Bachelor of Arts in Education at West Virginia University; Bachelor of Arts in Christian Education at First Born Seminary and Training School in Georgia; Associate of Arts in Early Child Care Directorship from Palm Beach State University; and an Associate of Science in Funeral Services Mortuary Science from Miami Dade College. He is an active member of Omega Psi Phi Fraternity and presides over 12 Non-Profit organizations.",
+    "It has been quoted that Knowledge is Power, yet many leaders wield that power as a control instead of contribution. Mr. Andrew Jones, Founder and Executive Director of Cornerstone Deliverance & Development Ministries, Inc. based in Pompano Beach, Florida, believes that knowledge is meant to empower in order for people to help people. According to Mr. Jones, \"At the end of the day, every business is in the people business — if your business doesn't care about people, then you're out of business.\""
+  ],
+  "mission": {
+    "title": "Our Mission",
+    "content": "We value the time-honored traditions of Christian service, education, and unconditional love to benefit all of God's creation. We will serve our community as an educational and informational resource center. We will give back to our community through professional guidance and personal and specialized attention civic service organizations, and a local church.",
+    "additionalText": "In everything we do, we strive to meet and exceed the expectations of the families we serve. We will be known in our community for our commitment to excellence in community service."
+  },
+  "purpose": {
+    "title": "Our Purpose",
+    "paragraphs": [
+      "Our sole purpose is a holistic approach to develop community-based educational and artistic programs, designed to mold individuals into morally responsible citizens in body, mind, and spirit. This will serve as a bridge between home, school, church, and the community. It is more than just bringing together people, but to remediate low academic skills, to build self-esteem and to serve as an alternative to prevent drugs, violence, and crime. Its main function is to provide a wide variety of well-planned and professionally directed activities for those who themselves are in a period of physical and social transition, and thus need close personal warmth and understanding.",
+      "Such experience will include the acquiring of basic knowledge and understandings, improving the self-esteem concept, developing proper study habits, promoting interpersonal human relations, physical development through recreational activities and inter-cultural understanding and appreciation."
+    ]
+  },
+  "team": {
+    "title": "People that holds us",
+    "subtitle": "A group of dedicated and unwavering men and women who are dedicated to serving your every need, daily.",
+    "members": [
+      {
+        "name": "Andrew James Jones",
+        "title": "Executive Director",
+        "image": "/images/cornerstone/siteImages/team/foundert1.png",
+        "link": "/team/andrew-jones"
+      },
+      {
+        "name": "Johanna L. Courts",
+        "title": "Chief Operating Officer",
+        "image": "/images/cornerstone/johanna2.png",
+        "link": "/team/johanna-courts"
+      },
+      {
+        "name": "Patricia B. Davis",
+        "title": "Director of Education",
+        "image": "/images/cornerstone/patricia.png",
+        "link": "/team/patricia-davis"
+      },
+      {
+        "name": "Lovetta Ford",
+        "title": "Associate Director",
+        "image": "/images/cornerstone/siteImages/team/educatort1.png",
+        "link": "/team/lovetta-ford"
+      },
+      {
+        "name": "Ivory Jones",
+        "title": "Public Relations",
+        "image": "/images/cornerstone/ivory2.png",
+        "link": "/team/ivory-jones"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to work with us?",
+    "subtitle": "Start working with us today and get a wonderful experience",
+    "buttonText": "CONTACT US",
+    "buttonLink": "/contact"
+  }
+}

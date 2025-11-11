@@ -1,0 +1,312 @@
+{
+    "exportedAt": "2025-11-10 13:59:38",
+    "totalPages": 51,
+    "pages": [
+        {
+            "id": 1,
+            "title": "Home",
+            "slug": "home",
+            "sections": 0
+        },
+        {
+            "id": 2,
+            "title": "About",
+            "slug": "about",
+            "sections": 0
+        },
+        {
+            "id": 3,
+            "title": "Contact",
+            "slug": "contact",
+            "sections": 2
+        },
+        {
+            "id": 4,
+            "title": "Services",
+            "slug": "services",
+            "sections": 0
+        },
+        {
+            "id": 5,
+            "title": "Buttons",
+            "slug": "buttons",
+            "sections": 0
+        },
+        {
+            "id": 6,
+            "title": "Home - Investment",
+            "slug": "home-investment",
+            "sections": 0
+        },
+        {
+            "id": 7,
+            "title": "Newsletter",
+            "slug": "newsletter",
+            "sections": 0
+        },
+        {
+            "id": 8,
+            "title": "Home - Multipurpose",
+            "slug": "home-multipurpose",
+            "sections": 0
+        },
+        {
+            "id": 9,
+            "title": "Contact Us Top Right",
+            "slug": "contact-us-top-right",
+            "sections": 1
+        },
+        {
+            "id": 10,
+            "title": "Gallery",
+            "slug": "gallery",
+            "sections": 0
+        },
+        {
+            "id": 11,
+            "title": "Pricing",
+            "slug": "pricing",
+            "sections": 0
+        },
+        {
+            "id": 27,
+            "title": "Service Details",
+            "slug": "service-details",
+            "sections": 0
+        },
+        {
+            "id": 29,
+            "title": "Banner(Megamenu)",
+            "slug": "banner-megamenu",
+            "sections": 0
+        },
+        {
+            "id": 31,
+            "title": "Future of Work",
+            "slug": "future-of-work",
+            "sections": 0
+        },
+        {
+            "id": 32,
+            "title": "Future of Work",
+            "slug": "future-of-work",
+            "sections": 0
+        },
+        {
+            "id": 33,
+            "title": "Future of Work",
+            "slug": "future-of-work",
+            "sections": 0
+        },
+        {
+            "id": 34,
+            "title": "Future of Work",
+            "slug": "future-of-work",
+            "sections": 0
+        },
+        {
+            "id": 35,
+            "title": "Future of Work",
+            "slug": "future-of-work",
+            "sections": 0
+        },
+        {
+            "id": 36,
+            "title": "Connect",
+            "slug": "connect",
+            "sections": 0
+        },
+        {
+            "id": 37,
+            "title": "Connect",
+            "slug": "connect",
+            "sections": 0
+        },
+        {
+            "id": 38,
+            "title": "Home (Main)",
+            "slug": "home-main",
+            "sections": 16
+        },
+        {
+            "id": 39,
+            "title": "About NEW",
+            "slug": "about-new",
+            "sections": 9
+        },
+        {
+            "id": 40,
+            "title": "Message from Founder",
+            "slug": "message-from-founder",
+            "sections": 3
+        },
+        {
+            "id": 41,
+            "title": "History",
+            "slug": "history",
+            "sections": 4
+        },
+        {
+            "id": 42,
+            "title": "Mission and Purpose",
+            "slug": "mission-and-purpose",
+            "sections": 0
+        },
+        {
+            "id": 43,
+            "title": "Programs and Services",
+            "slug": "programs-and-services",
+            "sections": 9
+        },
+        {
+            "id": 44,
+            "title": "Youth Empowerment Performing Arts",
+            "slug": "youth-empowerment-performing-arts",
+            "sections": 5
+        },
+        {
+            "id": 45,
+            "title": "Mental Health",
+            "slug": "mental-health",
+            "sections": 2
+        },
+        {
+            "id": 46,
+            "title": "Bright Futures",
+            "slug": "bright-futures",
+            "sections": 2
+        },
+        {
+            "id": 47,
+            "title": "Youth In Action",
+            "slug": "youth-in-action",
+            "sections": 2
+        },
+        {
+            "id": 48,
+            "title": "Non Profit Development",
+            "slug": "non-profit-development",
+            "sections": 2
+        },
+        {
+            "id": 49,
+            "title": "Community Housing",
+            "slug": "community-housing",
+            "sections": 2
+        },
+        {
+            "id": 50,
+            "title": "Funeral Home",
+            "slug": "funeral-home",
+            "sections": 3
+        },
+        {
+            "id": 51,
+            "title": "Team",
+            "slug": "team",
+            "sections": 3
+        },
+        {
+            "id": 52,
+            "title": "Contact (2)",
+            "slug": "contact-2",
+            "sections": 0
+        },
+        {
+            "id": 53,
+            "title": "Logo",
+            "slug": "logo",
+            "sections": 1
+        },
+        {
+            "id": 54,
+            "title": "Johanna",
+            "slug": "johanna",
+            "sections": 2
+        },
+        {
+            "id": 55,
+            "title": "AJones",
+            "slug": "ajones",
+            "sections": 2
+        },
+        {
+            "id": 56,
+            "title": "Patricia Denis",
+            "slug": "patricia-denis",
+            "sections": 2
+        },
+        {
+            "id": 57,
+            "title": "Ivory Jones",
+            "slug": "ivory-jones",
+            "sections": 2
+        },
+        {
+            "id": 58,
+            "title": "Youth Athletics",
+            "slug": "youth-athletics",
+            "sections": 2
+        },
+        {
+            "id": 59,
+            "title": "Family Strengthening & Stabilization",
+            "slug": "family-strengthening-stabilization",
+            "sections": 2
+        },
+        {
+            "id": 60,
+            "title": "Behavioral, Emotional & Mental Health",
+            "slug": "behavioral-emotional-mental-health",
+            "sections": 2
+        },
+        {
+            "id": 61,
+            "title": "Housing Development & Security",
+            "slug": "housing-development-security",
+            "sections": 2
+        },
+        {
+            "id": 62,
+            "title": "Transportation & Logistics",
+            "slug": "transportation-logistics",
+            "sections": 2
+        },
+        {
+            "id": 63,
+            "title": "Community & Neighborhood Revitalization",
+            "slug": "community-neighborhood-revitalization",
+            "sections": 2
+        },
+        {
+            "id": 64,
+            "title": "Nonprofit Development, Economic Development & Entrepreneurship",
+            "slug": "nonprofit-development-economic-development-entrepreneurship",
+            "sections": 2
+        },
+        {
+            "id": 65,
+            "title": "Feeding Our Communities",
+            "slug": "feeding-our-communities",
+            "sections": 2
+        },
+        {
+            "id": 66,
+            "title": "Employability Skills & Job Training",
+            "slug": "employability-skills-job-training",
+            "sections": 2
+        },
+        {
+            "id": 67,
+            "title": "End-of-Life Farewell and Dignified Remembrance",
+            "slug": "end-of-life-farewell-and-dignified-remembrance",
+            "sections": 2
+        },
+        {
+            "id": 68,
+            "title": "Thank You For Your Submission",
+            "slug": "thank-you-for-your-submission",
+            "sections": 1
+        }
+    ]
+}
