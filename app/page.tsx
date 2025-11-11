@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { TeamGrid } from '@/components/TeamGrid';
+import { Footer } from '@/components/Footer';
 import teamContent from '@/content/team-content.json';
 
 export default function HomePage() {
@@ -253,49 +254,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-100 py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <div>
-              <h3 className="font-bold text-purple-900 mb-4">Company</h3>
-              <ul className="space-y-2">
-                <li><Link href="/about-new" className="text-gray-700 hover:text-purple-900">About Us</Link></li>
-                <li><Link href="/programs-and-services" className="text-gray-700 hover:text-purple-900">Programs and Services</Link></li>
-                <li><Link href="/contact" className="text-gray-700 hover:text-purple-900">Contact Us</Link></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-purple-900 mb-4">Donations / Events</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">Youth Athletics, Enrichment & Intervention</Link></li>
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">Nonprofit Development</Link></li>
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">Behavioral, Emotional & Mental Health</Link></li>
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">End-Of-Life Farewell</Link></li>
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">More Services</Link></li>
-                <li><Link href="#" className="text-gray-700 hover:text-purple-900">Thank You Contact Form</Link></li>
-              </ul>
-            </div>
-
-            <div className="md:col-span-2">
-              <div className="relative w-48 h-48">
-                <Image
-                  src="/images/cornerstone/logo.png"
-                  alt="Cornerstone Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-300 mt-8 pt-8 text-center text-sm text-gray-600">
-            <p>© Copyright is 2025, Cornerstone Deliverance & Development Ministries for Christ, Inc.</p>
-            <p className="mt-2">Developed by <Link href="https://esceety.com" className="text-purple-900 hover:underline">Esceety</Link>, <Link href="#" className="text-purple-900 hover:underline">Esceety</Link></p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
