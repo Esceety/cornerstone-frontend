@@ -1,5 +1,6 @@
 import { Navigation } from '@/components/Navigation';
 import { TeamMemberBio } from '@/components/TeamMemberBio';
+import { CTASection } from '@/components/CTASection';
 import { Footer } from '@/components/Footer';
 import bioData from '@/content/andrew-jones-bio.json';
 
@@ -18,6 +19,14 @@ export default function AndrewJonesPage() {
         title={bioData.title}
         image={bioData.image}
         bio={bioData.bio}
+      />
+
+      <CTASection
+        title="Ready to work with us?"
+        subtitle="Start working with us today and get a wonderful experience"
+        buttonText="CONTACT US"
+        buttonLink="/contact"
+        variant="dark"
       />
 
       <Footer />
