@@ -1,0 +1,35 @@
+import { Navigation } from '@/components/Navigation';
+import { TeamMemberBio } from '@/components/TeamMemberBio';
+import { CTASection } from '@/components/CTASection';
+import { Footer } from '@/components/Footer';
+import bioData from '@/content/patricia-denis-bio.json';
+
+export const metadata = {
+  title: 'Patricia B. Davis - Director of Education | Cornerstone Deliverance',
+  description: 'Learn about Patricia B. Davis, Director of Education at Cornerstone Deliverance & Development Ministries.',
+};
+
+export default function PatriciaDenisPage() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Navigation currentPage="" />
+      
+      <TeamMemberBio
+        name={bioData.name}
+        title={bioData.title}
+        image={bioData.image}
+        bio={bioData.bio}
+      />
+
+      <CTASection
+        title="Ready to work with us?"
+        subtitle="Start working with us today and get a wonderful experience"
+        buttonText="CONTACT US"
+        buttonLink="/contact"
+        variant="dark"
+      />
+
+      <Footer />
+    </div>
+  );
+}
