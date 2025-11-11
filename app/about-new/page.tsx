@@ -68,32 +68,6 @@ export default async function AboutPage() {
         height="medium"
       />
 
-      {/* Welcome Section - Founder Message */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-            <div className="relative h-[500px]">
-              <Image
-                src={content.welcome.image}
-                alt="Founder"
-                fill
-                className="object-cover rounded-lg"
-              />
-            </div>
-            <div>
-              <h2 className="text-4xl font-bold text-gray-900 mb-2">{content.welcome.title}</h2>
-              <p className="text-purple-600 text-lg mb-6">{content.welcome.subtitle}</p>
-              <div className="prose prose-lg text-gray-700">
-                <p>{content.welcome.message}</p>
-              </div>
-              <div className="mt-8">
-                <p className="text-2xl font-bold text-gray-900">{content.welcome.signature}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Mission & Purpose */}
       <section id="mission" className="py-24 bg-gradient-to-b from-white via-purple-50 to-white">
         <div className="container mx-auto px-4">
