@@ -133,7 +133,7 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <Heading
             key={index}
-            text={data.text || data.title || ''}
+            text={String(data.text || data.title || '')}
             level={(data.level || 'h2') as 'h2'}
           />
         );
@@ -144,9 +144,9 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <TextBlock
             key={index}
-            html={data.html || ''}
-            text={addon.text}
-            heading={data.heading}
+            html={String(data.html || '')}
+            text={String(addon.text || '')}
+            heading={String(data.heading || '')}
           />
         );
 
@@ -156,9 +156,9 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <Button
             key={index}
-            text={data.text}
-            url={data.url || '#'}
-            style={data.style || 'primary'}
+            text={String(data.text || "")}
+            url={String(data.url || '#')}
+            style={(data.style as 'primary' | 'secondary' | 'outline') || 'primary'}
           />
         );
 
@@ -168,9 +168,9 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <ImageBlock
             key={index}
-            src={data.src || data.image}
-            alt={data.alt || data.alt_text || ''}
-            title={data.title}
+            src={String(data.src || data.image || '')}
+            alt={String(data.alt || data.alt_text || '')}
+            title={String(data.title || '')}
           />
         );
 
@@ -182,14 +182,14 @@ function renderAddon(addon: Addon, index: number) {
         return (
           <TextBlock
             key={index}
-            html={data.html || addon.data?.htmlContent || ''}
+            html={String(data.html || addon.data?.htmlContent || '')}
           />
         );
 
       default:
         // For unknown types, try to extract text or render generically
         if (addon.text) {
-          return <TextBlock key={index} text={addon.text} />;
+          return <TextBlock key={index} html="" text={String(addon.text || '')} />;
         }
         notFound();
     }

@@ -12,7 +12,7 @@ export const metadata = {
 export default function PatriciaDenisPage() {
   return (
     <div className="min-h-screen bg-white">
-      <Navigation currentPage="" />
+      <Navigation currentPage={undefined} />
       
       <TeamMemberBio
         name={bioData.name}
