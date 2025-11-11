@@ -35,8 +35,10 @@ export function TeamGrid({
     ? 'text-gray-300 hover:text-white' 
     : 'text-gray-600 hover:text-purple-700';
   
-  const gridClass = columns === 5 
-    ? 'grid-cols-1 md:grid-cols-3 lg:grid-cols-5' 
+  const gridClass = columns === 5
+    ? 'grid-cols-1 md:grid-cols-3 lg:grid-cols-5'
+    : columns === 4
+    ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4'
     : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3';
 
   return (
@@ -57,7 +59,7 @@ export function TeamGrid({
           </div>
         )}
 
-        <div className={`grid ${gridClass} gap-8 max-w-7xl mx-auto`}>
+        <div className={`grid ${gridClass} gap-6 max-w-7xl mx-auto`}>
           {members.map((member, index) => (
             <div
               key={index}
