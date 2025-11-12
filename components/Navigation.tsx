@@ -9,6 +9,8 @@ interface NavigationProps {
 
 export function Navigation({ currentPage = 'home' }: NavigationProps) {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+  const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
+  const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
 
   const linkClass = (page: string) =>
     currentPage === page
@@ -81,9 +83,48 @@ export function Navigation({ currentPage = 'home' }: NavigationProps) {
             )}
           </div>
 
-          <Link href="/programs-and-services" className={linkClass('programs')}>
-            Programs and Services
-          </Link>
+          {/* Programs Dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setProgramsDropdownOpen(true)}
+            onMouseLeave={() => setProgramsDropdownOpen(false)}
+          >
+            <button
+              className={`${linkClass('programs')} flex items-center space-x-1 py-2`}
+              onClick={() => setProgramsDropdownOpen(!programsDropdownOpen)}
+            >
+              <span>Programs and Services</span>
+              <svg
+                className={`w-4 h-4 transition-transform ${programsDropdownOpen ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+
+            {programsDropdownOpen && (
+              <div className="absolute top-full left-0 mt-0 w-72 bg-white rounded-b-lg shadow-2xl border border-gray-100 py-2 animate-fadeIn">
+                <Link
+                  href="/programs-and-services/youth-athletics"
+                  className="block px-6 py-3 text-gray-700 hover:bg-purple-50 hover:text-purple-600 transition-colors border-l-4 border-transparent hover:border-purple-600"
+                  onClick={() => setProgramsDropdownOpen(false)}
+                >
+                  <div className="font-semibold">Youth Athletics & Enrichment</div>
+                  <div className="text-xs text-gray-500">Empowering youth through sports and arts</div>
+                </Link>
+                <Link
+                  href="/programs-and-services"
+                  className="block px-6 py-3 text-gray-700 hover:bg-orange-50 hover:text-orange-600 transition-colors border-l-4 border-transparent hover:border-orange-500"
+                  onClick={() => setProgramsDropdownOpen(false)}
+                >
+                  <div className="font-semibold text-orange-500">All Programs</div>
+                  <div className="text-xs text-gray-500">View complete services list</div>
+                </Link>
+              </div>
+            )}
+          </div>
           <Link href="/team" className={linkClass('team')}>
             Team
           </Link>

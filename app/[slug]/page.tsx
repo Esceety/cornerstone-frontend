@@ -177,6 +177,28 @@ function renderAddon(addon: Addon, index: number) {
       case 'divider':
         return <Divider key={index} />;
 
+      case 'row':
+        // Skip row containers - we'll render their children directly
+        if (addon.columns) {
+          return addon.columns.flatMap((col: any, colIndex: number) => 
+            col.addons?.map((childAddon: Addon, childIndex: number) => 
+              renderAddon(childAddon, index * 1000 + colIndex * 100 + childIndex)
+            ) || []
+          );
+        }
+        return null;
+
+      case 'row':
+        // Skip row containers - we'll render their children directly
+        if (addon.columns) {
+          return addon.columns.flatMap((col: any, colIndex: number) => 
+            col.addons?.map((childAddon: Addon, childIndex: number) => 
+              renderAddon(childAddon, index * 1000 + colIndex * 100 + childIndex)
+            ) || []
+          );
+        }
+        return null;
+
       case 'htmlContent':
         if (!data?.html && !addon.data?.htmlContent) notFound();
         return (
