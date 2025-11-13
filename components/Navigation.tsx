@@ -10,7 +10,6 @@ interface NavigationProps {
 export function Navigation({ currentPage = 'home' }: NavigationProps) {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
   const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
-  const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
 
   const linkClass = (page: string) =>
     currentPage === page

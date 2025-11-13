@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
-import Navigation from '@/components/Navigation';
+import { Navigation } from '@/components/Navigation';
 import ServiceDetail from '@/components/ServiceDetail';
-import CTASection from '@/components/CTASection';
-import Footer from '@/components/Footer';
+import { CTASection } from '@/components/CTASection';
+import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'Youth Athletics, Enrichment & Intervention | Cornerstone Deliverance Ministries',
@@ -43,7 +43,12 @@ export default function YouthAthleticsPage() {
         programList={serviceData.programList}
       />
 
-      <CTASection />
+      <CTASection
+        title="Ready to work with us?"
+        subtitle="Start working with us today and get a wonderful experience"
+        buttonText="CONTACT US"
+        buttonLink="/contact"
+      />
       
       <Footer />
     </div>
