@@ -10,21 +10,26 @@ interface NavigationProps {
 export function Navigation({ currentPage = 'home' }: NavigationProps) {
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
   const [programsDropdownOpen, setProgramsDropdownOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
+  const [mobileProgramsOpen, setMobileProgramsOpen] = useState(false);
 
   const linkClass = (page: string) =>
     currentPage === page
       ? 'text-orange-500 font-semibold hover:text-orange-600'
       : 'text-gray-700 hover:text-purple-600';
 
+  const mobileLinkClass = (page: string) =>
+    currentPage === page
+      ? 'text-orange-500 font-semibold'
+      : 'text-gray-700';
+
   return (
     <nav className='fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50'>
       <div className='container mx-auto px-4 py-4 flex justify-between items-center'>
-        <div className='flex items-center space-x-2'>
-          <Link href='/' className='text-purple-900 font-bold text-2xl'>
-            CORNERSTONE
-          </Link>
-          <div className='text-sm text-gray-600'>1-912-216-1229</div>
-        </div>
+        <Link href='/' className='text-purple-900 font-bold text-2xl'>
+          CORNERSTONE
+        </Link>
 
         <div className='hidden md:flex space-x-8 items-center'>
           <Link href='/' className={linkClass('home')}>
@@ -271,13 +276,212 @@ export function Navigation({ currentPage = 'home' }: NavigationProps) {
           </Link>
         </div>
 
+        {/* Desktop Contact Button */}
         <Link
           href='/contact'
-          className='bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition-colors font-semibold'
+          className='hidden md:block bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition-colors font-semibold'
         >
           CONTACT US
         </Link>
+
+        {/* Mobile Menu Button */}
+        <button
+          className='md:hidden text-gray-700 hover:text-purple-600 focus:outline-none'
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label='Toggle menu'
+        >
+          {mobileMenuOpen ? (
+            <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M6 18L18 6M6 6l12 12' />
+            </svg>
+          ) : (
+            <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+              <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
+            </svg>
+          )}
+        </button>
       </div>
+
+      {/* Mobile Menu */}
+      {mobileMenuOpen && (
+        <div className='md:hidden bg-white border-t border-gray-200'>
+          <div className='container mx-auto px-4 py-4 space-y-2'>
+            <Link 
+              href='/' 
+              className={`block py-2 ${mobileLinkClass('home')}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Home
+            </Link>
+
+            {/* Mobile About Dropdown */}
+            <div>
+              <button
+                className={`w-full flex justify-between items-center py-2 ${mobileLinkClass('about')}`}
+                onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+              >
+                <span>About</span>
+                <svg
+                  className={`w-4 h-4 transition-transform ${mobileAboutOpen ? 'rotate-180' : ''}`}
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
+                </svg>
+              </button>
+              {mobileAboutOpen && (
+                <div className='pl-4 space-y-2 py-2'>
+                  <Link
+                    href='/about-new'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    href='/message-from-founder'
+                    className='block py-2 text-gray-600 hover:text-orange-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Message from Founder
+                  </Link>
+                  <Link
+                    href='/about-new#mission'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Mission & Purpose
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Mobile Programs Dropdown */}
+            <div>
+              <button
+                className={`w-full flex justify-between items-center py-2 ${mobileLinkClass('programs')}`}
+                onClick={() => setMobileProgramsOpen(!mobileProgramsOpen)}
+              >
+                <span>Programs and Services</span>
+                <svg
+                  className={`w-4 h-4 transition-transform ${mobileProgramsOpen ? 'rotate-180' : ''}`}
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M19 9l-7 7-7-7' />
+                </svg>
+              </button>
+              {mobileProgramsOpen && (
+                <div className='pl-4 space-y-2 py-2'>
+                  <Link
+                    href='/programs-and-services'
+                    className='block py-2 text-orange-500 font-semibold hover:text-orange-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    All Programs
+                  </Link>
+                  <Link
+                    href='/programs-and-services/youth-athletics'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Youth Athletics & Enrichment
+                  </Link>
+                  <Link
+                    href='/programs-and-services/family-strengthening-stabilization'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Family Strengthening & Stabilization
+                  </Link>
+                  <Link
+                    href='/programs-and-services/behavioral-emotional-mental-health'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Behavioral, Emotional, & Mental Health
+                  </Link>
+                  <Link
+                    href='/programs-and-services/housing-development-security'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Housing Development & Security
+                  </Link>
+                  <Link
+                    href='/programs-and-services/transportation-logistics'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Transportation & Logistics
+                  </Link>
+                  <Link
+                    href='/programs-and-services/community-neighborhood-revitalization'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Community & Neighborhood Revitalization
+                  </Link>
+                  <Link
+                    href='/programs-and-services/nonprofit-economic-development-entrepreneurship'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Nonprofit & Economic Development
+                  </Link>
+                  <Link
+                    href='/programs-and-services/feeding-our-communities'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Feeding Our Communities
+                  </Link>
+                  <Link
+                    href='/programs-and-services/employability-skills-job-training'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Employability Skills & Job Training
+                  </Link>
+                  <Link
+                    href='/programs-and-services/end-of-life-farewell-dignified-remembrance'
+                    className='block py-2 text-gray-600 hover:text-purple-600'
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    End-of-Life Farewell & Remembrance
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            <Link 
+              href='/team' 
+              className={`block py-2 ${mobileLinkClass('team')}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Team
+            </Link>
+            <Link 
+              href='/contact' 
+              className={`block py-2 ${mobileLinkClass('contact')}`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Contact
+            </Link>
+
+            {/* Mobile Contact Button */}
+            <Link
+              href='/contact'
+              className='block w-full bg-orange-500 text-white px-6 py-3 rounded hover:bg-orange-600 transition-colors font-semibold text-center mt-4'
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              CONTACT US
+            </Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
