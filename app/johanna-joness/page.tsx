@@ -5,11 +5,11 @@ import { Footer } from '@/components/Footer';
 import bioData from '@/content/johanna-joness-bio.json';
 
 export const metadata = {
-  title: 'Johanna L. Joness - Chief Operating Officer | Cornerstone Deliverance',
-  description: 'Learn about Johanna L. Joness, Chief Operating Officer of Cornerstone Deliverance & Development Ministries.',
+  title: 'Johanna L. Jones - Chief Operating Officer | Cornerstone Deliverance',
+  description: 'Learn about Johanna L. Jones, Chief Operating Officer of Cornerstone Deliverance & Development Ministries.',
 };
 
-export default function JohannaJonessPage() {
+export default function JohannaJonesPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation currentPage={undefined} />
