@@ -15,6 +15,7 @@ interface Addon {
   text?: string;
   images?: string[];
   data: Record<string, unknown>;
+  columns?: Column[];
 }
 
 interface Column {
@@ -109,7 +110,7 @@ async function getPageData(slug: string): Promise<PageData | null> {
 }
 
 // Render a single addon based on its type
-function renderAddon(addon: Addon, index: number) {
+function renderAddon(addon: Addon, index: number): React.ReactNode {
   const { type, data } = addon;
 
   try {
@@ -180,18 +181,7 @@ function renderAddon(addon: Addon, index: number) {
       case 'row':
         // Skip row containers - we'll render their children directly
         if (addon.columns) {
-          return addon.columns.flatMap((col: any, colIndex: number) => 
-            col.addons?.map((childAddon: Addon, childIndex: number) => 
-              renderAddon(childAddon, index * 1000 + colIndex * 100 + childIndex)
-            ) || []
-          );
-        }
-        return null;
-
-      case 'row':
-        // Skip row containers - we'll render their children directly
-        if (addon.columns) {
-          return addon.columns.flatMap((col: any, colIndex: number) => 
+          return addon.columns.flatMap((col: Column, colIndex: number) => 
             col.addons?.map((childAddon: Addon, childIndex: number) => 
               renderAddon(childAddon, index * 1000 + colIndex * 100 + childIndex)
             ) || []
