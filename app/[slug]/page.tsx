@@ -57,7 +57,12 @@ export async function generateStaticParams() {
   const files = fs.readdirSync(contentDir).filter((f) => f.endsWith('.json'));
 
   // Exclude routes that have their own custom page.tsx files
-  const excludedRoutes = ['team', 'about-new', 'contact', 'message-from-founder'];
+  const excludedRoutes = [
+    'team',
+    'about-new',
+    'contact',
+    'message-from-founder',
+  ];
 
   return files
     .map((file) => file.replace('.json', ''))
@@ -72,8 +77,6 @@ export async function generateMetadata({
   const { slug } = await params;
 
   const page = await getPageData(slug);
-
-  
 
   if (!page) {
     return {
@@ -157,9 +160,11 @@ function renderAddon(addon: Addon, index: number): React.ReactNode {
         return (
           <Button
             key={index}
-            text={String(data.text || "")}
+            text={String(data.text || '')}
             url={String(data.url || '#')}
-            style={(data.style as 'primary' | 'secondary' | 'outline') || 'primary'}
+            style={
+              (data.style as 'primary' | 'secondary' | 'outline') || 'primary'
+            }
           />
         );
 
@@ -181,10 +186,14 @@ function renderAddon(addon: Addon, index: number): React.ReactNode {
       case 'row':
         // Skip row containers - we'll render their children directly
         if (addon.columns) {
-          return addon.columns.flatMap((col: Column, colIndex: number) => 
-            col.addons?.map((childAddon: Addon, childIndex: number) => 
-              renderAddon(childAddon, index * 1000 + colIndex * 100 + childIndex)
-            ) || []
+          return addon.columns.flatMap(
+            (col: Column, colIndex: number) =>
+              col.addons?.map((childAddon: Addon, childIndex: number) =>
+                renderAddon(
+                  childAddon,
+                  index * 1000 + colIndex * 100 + childIndex
+                )
+              ) || []
           );
         }
         return null;
@@ -201,7 +210,9 @@ function renderAddon(addon: Addon, index: number): React.ReactNode {
       default:
         // For unknown types, try to extract text or render generically
         if (addon.text) {
-          return <TextBlock key={index} html="" text={String(addon.text || '')} />;
+          return (
+            <TextBlock key={index} html='' text={String(addon.text || '')} />
+          );
         }
         notFound();
     }
@@ -241,7 +252,6 @@ export default async function DynamicPage({ params }: PageProps) {
       </div>
     );
   }
-
 
   return (
     <div className='min-h-screen bg-gradient-to-b from-gray-50 to-white'>

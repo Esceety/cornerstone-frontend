@@ -6,14 +6,15 @@ import bioData from '@/content/johanna-joness-bio.json';
 
 export const metadata = {
   title: 'Johanna L. Jones - Chief Operating Officer | Cornerstone Deliverance',
-  description: 'Learn about Johanna L. Jones, Chief Operating Officer of Cornerstone Deliverance & Development Ministries.',
+  description:
+    'Learn about Johanna L. Jones, Chief Operating Officer of Cornerstone Deliverance & Development Ministries.',
 };
 
 export default function JohannaJonesPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className='min-h-screen bg-white'>
       <Navigation currentPage={undefined} />
-      
+
       <TeamMemberBio
         name={bioData.name}
         title={bioData.title}
@@ -22,11 +23,11 @@ export default function JohannaJonesPage() {
       />
 
       <CTASection
-        title="Ready to work with us?"
-        subtitle="Start working with us today and get a wonderful experience"
-        buttonText="CONTACT US"
-        buttonLink="/contact"
-        variant="dark"
+        title='Ready to work with us?'
+        subtitle='Start working with us today and get a wonderful experience'
+        buttonText='CONTACT US'
+        buttonLink='/contact'
+        variant='dark'
       />
 
       <Footer />
