@@ -4,6 +4,17 @@ import { TeamGrid } from '@/components/TeamGrid';
 import { Footer } from '@/components/Footer';
 import { Navigation } from '@/components/Navigation';
 import teamContent from '@/content/team-content.json';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'Cornerstone Deliverance & Development Ministries for Christ, Inc. - Building Community, Restoring Hope Through Faith and Affordable Housing. Serving families, youth, and communities in Florida and Georgia.',
+  openGraph: {
+    title: 'Cornerstone Deliverance & Development Ministries',
+    description: 'Building Community, Restoring Hope—Through Faith and Affordable Housing',
+    images: ['/images/cornerstone/hero/hero1.jpg'],
+  },
+};
 
 export default function HomePage() {
   return (
