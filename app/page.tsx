@@ -7,7 +7,7 @@ import teamContent from '@/content/team-content.json';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Home',
+  title: 'Cornerstone Deliverance & Development Ministries for Christ, Inc.',
   description: 'Cornerstone Deliverance & Development Ministries for Christ, Inc. - Building Community, Restoring Hope Through Faith and Affordable Housing. Serving families, youth, and communities in Florida and Georgia.',
   openGraph: {
     title: 'Cornerstone Deliverance & Development Ministries',
